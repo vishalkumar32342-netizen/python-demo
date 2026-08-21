@@ -25,7 +25,7 @@ for x in range(1,11):
      print(9*x)
 
 #Enter any number multiplication
-n=int(input("Entter any number:"))
+n=int(input("Enter any number:"))
 for i in range(1,11):
      print(n*i)
 
@@ -55,3 +55,12 @@ for i in range(1 , n+1):
      factorial=factorial*i
 
 print(n ,"! =",factorial)
+
+#Count how many numbers between 1 and 100 are divisible by 2.
+count=0
+
+for i in range(1,101):
+     if i%2==0:
+          count=count+1
+
+print(count)
