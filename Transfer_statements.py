@@ -38,7 +38,18 @@ for item in cart:
 #define that empty block with pass keyword.
 
 #print number which is divisible by 9.
+#use case of pass:
 for i in range(100):
     if i%9==0:
         print(i)
     else:pass
+
+#del statements:
+x=10
+print (x)
+del x
+
+#None statements
+s="vishal"
+s=None 
+print(s)
