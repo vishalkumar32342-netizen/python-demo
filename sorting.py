@@ -1,3 +1,5 @@
+#input=BR439B9203
+#output=BBR023399
 s=input("Enter some string:")
 s1=s2=output=''
 for x in s:
