@@ -1,30 +1,30 @@
 #---LIST-------
 
 #---empty list
-# list=[]
-# print(list)
-# print(type(list))
+list=[]
+print(list)
+print(type(list))
 
 # ------With dynamic input:
-# list=eval(input("Enter list:"))
-# print(list)
-# print(type(list))
+list=eval(input("Enter list:"))
+print(list)
+print(type(list))
 
 #----With list() function:
 
-# l=list(range(0,10,2))
-# print(l)
-# print(type(l))
+l=list(range(0,10,2))
+print(l)
+print(type(l))
 
-# s="vishal"
-# l=list(s)
-# print(l)
+s="vishal"
+l=list(s)
+print(l)
 
 #---with split() function:
-# s="Learning Python is very Easy!!!"
-# l=s.split()
-# print(l)
-# print(type(l))
+s="Learning Python is very Easy!!!"
+l=s.split()
+print(l)
+print(type(l))
 
 
 #----Accessing element of list
@@ -190,3 +190,4 @@ print(l)
 ords=["vishal","Bala","Venkatesh","Chiranjeevi"]
 l=[w[-1]for w in words]
 print(l)
+
