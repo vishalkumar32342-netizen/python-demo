@@ -1,0 +1,4 @@
+INFO:root:Program started
+INFO:root:Taking input from user
+WARNING:root:Low balance
+ERROR:root:Something went wrong
