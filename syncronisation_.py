@@ -80,14 +80,14 @@ print('main thread acquire same lock again')
 #__2.Recursive function
 
 #__Example___
-l=RLock()
-l.acquire()==>got lock==>holds=1
-l.acquire()==>got lcok==>holds=2
-l.acquire()==>got lock==>holds=3
+# l=RLock()
+# l.acquire()==>got lock==>holds=1
+# l.acquire()==>got lcok==>holds=2
+# l.acquire()==>got lock==>holds=3
 
-l.release()==>holds=>3-1=2
-l.release()==>holds=>2-1=1
-l.release()==>holds=>1-1=0
+# l.release()==>holds=>3-1=2
+# l.release()==>holds=>2-1=1
+# l.release()==>holds=>1-1=0
 
 
 
